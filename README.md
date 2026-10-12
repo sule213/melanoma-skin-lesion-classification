@@ -7,32 +7,32 @@ The notebooks refer to two datasets by the names used in the project, NHS and AL
 ## Contents
 
 ### Data preparation
-- `Loading data MELANOMA.ipynb` - loading and preparing the lesion image data
-- `Augmentation.ipynb` - image augmentation
+- `loading_data.ipynb` - loading and preparing the lesion image data
+- `augmentation.ipynb` - image augmentation
 
 ### Feature selection and dimensionality reduction
-- `Feature Selection and Data Visualization.ipynb`
-- `Univariate Feature Selection.ipynb`
-- `(SBS)-SVM-NHS-13.ipynb` and `SBS NHS.ipynb` - sequential backward selection (SBS) with a support vector machine (SVM)
-- `(PCA)-NHS-1.ipynb`, `PCA Analysis NHS.ipynb` and `Principal component analysis (NHS).ipynb` - principal component analysis (PCA)
+- `feature_selection_data_visualization.ipynb`
+- `univariate_feature_selection.ipynb`
+- `sbs_svm_13_features.ipynb` and `sbs_nhs.ipynb` - sequential backward selection (SBS) with a support vector machine (SVM)
+- `pca_nhs_1.ipynb`, `pca_analysis_nhs.ipynb` and `principal_component_analysis_nhs.ipynb` - principal component analysis (PCA)
 
 ### Classical models and ensembles
-- `SVM NHS Training.ipynb` - SVM training
-- `Model Selection NHS.ipynb`
-- `Ensemble Classifier.ipynb` and `Voting Ensemble.ipynb`
-- `3 and 5 Ensemble 5 features-Copy1.ipynb` - ensembles over selected feature subsets
+- `svm_training_nhs.ipynb` - SVM training
+- `model_selection_nhs.ipynb`
+- `ensemble_classifier.ipynb` and `voting_ensemble.ipynb`
+- `ensemble_3_and_5_features.ipynb` - ensembles over selected feature subsets
 
 ### Deep learning
-- `CNN MELANOMA-GridSearch.ipynb` - CNN with grid search
-- `ConvNet ALTS-MELANOMA.ipynb`
-- `ConvNet aLTS-NHS-SEG-AUG.ipynb` - ConvNet on segmented, augmented images
-- `Visualizing Feature Maps (Sample Positive).ipynb`
+- `cnn_gridsearch.ipynb` - CNN with grid search
+- `convnet_alts.ipynb`
+- `convnet_alts_nhs_seg_aug.ipynb` - ConvNet on segmented, augmented images
+- `visualizing_feature_maps.ipynb`
 
 ### Evaluation
-- `Cross-Validated Predictions.ipynb`
-- `Confusion matrix and Reliability Curve 13 Features.ipynb`
-- `Cohen Kappa Scores.ipynb`
-- `Illustration of Pipeline and GridSearchCV.ipynb` - the overall pipeline and tuning approach
+- `cross_validated_predictions.ipynb`
+- `confusion_matrix_reliability_curve_13_features.ipynb`
+- `cohen_kappa_scores.ipynb`
+- `pipeline_and_gridsearchcv_illustration.ipynb` - the overall pipeline and tuning approach
 
 ## Related repository
 
